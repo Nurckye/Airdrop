@@ -4,8 +4,11 @@ struct ContentView: View {
     @State var ammount: Double?
     @State var name: String = ""
     @State var selectedBckConn: BckConnection?
+    @State var filePath: URL?
+    @State var keyContent: String?
+    
     private var disabledSend: Bool {
-        ammount == nil || selectedBckConn == nil
+        ammount == nil || selectedBckConn == nil || keyContent == nil
     }
     
     var body: some View {
@@ -27,6 +30,10 @@ struct ContentView: View {
             AmmountInput(
                 ammount: $ammount)
             Spacer()
+            
+            DocumentPickerButton(
+                keyContent: $keyContent)
+            
             SendButton(
                 disabled: disabledSend,
                 action: {})

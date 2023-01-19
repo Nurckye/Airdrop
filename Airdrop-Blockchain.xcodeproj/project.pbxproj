@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3120449729796BDA00C53844 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120449629796BDA00C53844 /* DocumentPicker.swift */; };
+		3120449A29796D1C00C53844 /* DocumentPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3120449929796D1C00C53844 /* DocumentPickerButton.swift */; };
 		31DD8CC4297846C10004C222 /* Airdrop_BlockchainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD8CC3297846C10004C222 /* Airdrop_BlockchainApp.swift */; };
 		31DD8CC6297846C10004C222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD8CC5297846C10004C222 /* ContentView.swift */; };
 		31DD8CC8297846C20004C222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DD8CC7297846C20004C222 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3120449629796BDA00C53844 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		3120449929796D1C00C53844 /* DocumentPickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerButton.swift; sourceTree = "<group>"; };
 		31DD8CC0297846C10004C222 /* Airdrop-Blockchain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airdrop-Blockchain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31DD8CC3297846C10004C222 /* Airdrop_BlockchainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airdrop_BlockchainApp.swift; sourceTree = "<group>"; };
 		31DD8CC5297846C10004C222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3120449829796D0C00C53844 /* DocumentPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3120449629796BDA00C53844 /* DocumentPicker.swift */,
+				3120449929796D1C00C53844 /* DocumentPickerButton.swift */,
+			);
+			path = DocumentPicker;
+			sourceTree = "<group>";
+		};
 		31DD8CB7297846C10004C222 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +79,7 @@
 		31DD8CC2297846C10004C222 /* Airdrop-Blockchain */ = {
 			isa = PBXGroup;
 			children = (
+				3120449829796D0C00C53844 /* DocumentPicker */,
 				31DD8CDD29785A350004C222 /* Info.plist */,
 				31DD8CC3297846C10004C222 /* Airdrop_BlockchainApp.swift */,
 				31DD8CC5297846C10004C222 /* ContentView.swift */,
@@ -165,9 +179,11 @@
 				31DD8CD2297847480004C222 /* PersonView.swift in Sources */,
 				31DD8CC6297846C10004C222 /* ContentView.swift in Sources */,
 				31DD8CDA29784E740004C222 /* ProximityService.swift in Sources */,
+				3120449A29796D1C00C53844 /* DocumentPickerButton.swift in Sources */,
 				31DD8CD629784AF70004C222 /* SendButton.swift in Sources */,
 				31DD8CD4297848D50004C222 /* AmmountInput.swift in Sources */,
 				31DD8CD829784C460004C222 /* PersonList.swift in Sources */,
+				3120449729796BDA00C53844 /* DocumentPicker.swift in Sources */,
 				31DD8CC4297846C10004C222 /* Airdrop_BlockchainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
